@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tania Salsabila — Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Plus Jakarta Sans', 'sans-serif'],
+                        mono: ['JetBrains Mono', 'monospace'],
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-[#fafafa] text-[#18181b] font-sans antialiased selection:bg-zinc-200">
+
+    <div class="max-w-2xl mx-auto px-6 py-16 md:py-24">
+        
+        <!-- Header / Intro -->
+        <header class="mb-14">
+            <div class="flex items-center justify-between mb-6">
+                <div class="inline-flex items-center gap-2 px-2.5 py-1 bg-emerald-50 border border-emerald-200 text-emerald-800 rounded-full text-xs font-medium">
+                    <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
+                    Mencari Posisi Magang
+                </div>
+                <a href="https://github.com/taniasalsabila" target="_blank" class="text-xs font-mono text-zinc-500 hover:text-zinc-900 transition">github.com/taniasalsabila ↗</a>
+            </div>
+            
+            <h1 class="text-2xl md:text-3xl font-bold tracking-tight text-zinc-900 mb-3">Tania Salsabila</h1>
+            <p class="text-sm md:text-base text-zinc-600 leading-relaxed">
+                Mahasiswa Informatika Amikom Purwokerto (Konsentrasi Sistem Cerdas). Berfokus pada logika <span class="font-mono text-xs bg-zinc-100 px-1.5 py-0.5 rounded border border-zinc-200">backend</span>, integrasi API, dan rekayasa perangkat lunak.
+            </p>
+        </header>
+
+        <!-- Tech Stack -->
+        <section class="mb-14">
+            <h2 class="text-xs font-mono uppercase tracking-wider text-zinc-400 mb-4">Core Stack & Tools</h2>
+            <div class="flex flex-wrap gap-2 text-xs font-mono">
+                <span class="px-2.5 py-1 bg-white border border-zinc-200 text-zinc-700 rounded-md shadow-sm">PHP / Laravel</span>
+                <span class="px-2.5 py-1 bg-white border border-zinc-200 text-zinc-700 rounded-md shadow-sm">JavaScript / React</span>
+                <span class="px-2.5 py-1 bg-white border border-zinc-200 text-zinc-700 rounded-md shadow-sm">Node.js / Express</span>
+                <span class="px-2.5 py-1 bg-white border border-zinc-200 text-zinc-700 rounded-md shadow-sm">Python</span>
+                <span class="px-2.5 py-1 bg-white border border-zinc-200 text-zinc-700 rounded-md shadow-sm">MySQL</span>
+                <span class="px-2.5 py-1 bg-white border border-zinc-200 text-zinc-700 rounded-md shadow-sm">REST API</span>
+                <span class="px-2.5 py-1 bg-white border border-zinc-200 text-zinc-700 rounded-md shadow-sm">Git</span>
+            </div>
+        </section>
+
+        <!-- Featured Projects -->
+        <section class="mb-14">
+            <h2 class="text-xs font-mono uppercase tracking-wider text-zinc-400 mb-6">Selected Projects</h2>
+            
+            <div class="space-y-8">
+                
+                <!-- Project 1 -->
+                <div class="group border-b border-zinc-200 pb-8">
+                    <div class="flex items-baseline justify-between mb-2">
+                        <h3 class="font-semibold text-zinc-900 group-hover:text-blue-600 transition">CaramelPawtner</h3>
+                        <span class="text-xs font-mono text-zinc-400">Laravel / MySQL</span>
+                    </div>
+                    <p class="text-sm text-zinc-600 mb-3 leading-relaxed">
+                        Sistem informasi reservasi layanan pet care. Berfokus pada perancangan arsitektur basis data relasional, logika manajemen booking, dan dasbor admin operasional.
+                    </p>
+                    <div class="flex items-center gap-4 text-xs font-mono text-zinc-500">
+                        <a href="https://github.com/taniasalsabila" target="_blank" class="hover:text-zinc-900 flex items-center gap-1">
+                            [Code] ↗
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="group border-b border-zinc-200 pb-8">
+                    <div class="flex items-baseline justify-between mb-2">
+                        <h3 class="font-semibold text-zinc-900 group-hover:text-blue-600 transition">SatuTangan</h3>
+                        <span class="text-xs font-mono text-zinc-400">React / Express.js</span>
+                    </div>
+                    <p class="text-sm text-zinc-600 mb-3 leading-relaxed">
+                        Platform penggalangan dana dan donasi berbasis web. Mengintegrasikan komponen antarmuka React dengan sistem REST API backend secara real-time.
+                    </p>
+                    <div class="flex items-center gap-4 text-xs font-mono text-zinc-500">
+                        <a href="https://github.com/taniasalsabila" target="_blank" class="hover:text-zinc-900 flex items-center gap-1">
+                            [Code] ↗
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="group border-b border-zinc-200 pb-8">
+                    <div class="flex items-baseline justify-between mb-2">
+                        <h3 class="font-semibold text-zinc-900 group-hover:text-blue-600 transition">Dokemas</h3>
+                        <span class="text-xs font-mono text-zinc-400">Mobile / REST API</span>
+                    </div>
+                    <p class="text-sm text-zinc-600 mb-3 leading-relaxed">
+                        Aplikasi mobile informasi wisata Banyumas. Mengembangkan logika modul guest state, itinerary history, serta menghubungkan alur frontend ke REST API.
+                    </p>
+                    <div class="flex items-center gap-4 text-xs font-mono text-zinc-500">
+                        <span class="text-zinc-400">Mobile Engineering</span>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="group">
+                    <div class="flex items-baseline justify-between mb-2">
+                        <h3 class="font-semibold text-zinc-900 group-hover:text-blue-600 transition">Ruang Baca</h3>
+                        <span class="text-xs font-mono text-zinc-400">System Study</span>
+                    </div>
+                    <p class="text-sm text-zinc-600 mb-3 leading-relaxed">
+                        Studi kasus alur sistem informasi ruang baca digital. Menganalisis aksesibilitas pengguna dan efisiensi pencarian katalog buku.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Education -->
+        <section class="mb-14">
+            <h2 class="text-xs font-mono uppercase tracking-wider text-zinc-400 mb-4">Education & Certs</h2>
+            <div class="space-y-3 text-sm">
+                <div class="flex justify-between items-start">
+                    <div>
+                        <div class="font-medium text-zinc-900">S1 Informatika — Universitas Amikom Purwokerto</div>
+                        <div class="text-xs text-zinc-500">Konsentrasi Sistem Cerdas</div>
+                    </div>
+                    <div class="text-xs font-mono text-zinc-400">2024 – Present</div>
+                </div>
+                <div class="flex justify-between items-start pt-2">
+                    <div>
+                        <div class="font-medium text-zinc-900">AI Fundamentals & Generative AI</div>
+                        <div class="text-xs text-zinc-500">IBM SkillsBuild</div>
+                    </div>
+                    <div class="text-xs font-mono text-zinc-400">Certificate</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer / Contact -->
+        <footer class="pt-8 border-t border-zinc-200 flex flex-col md:flex-row justify-between items-start md:items-center gap-4 text-xs text-zinc-500 font-mono">
+            <div>
+                Tania Salsabila — 2026
+            </div>
+            <div class="flex gap-4">
+                <a href="mailto:tania@email.com" class="hover:text-zinc-900 underline">Email</a>
+                <a href="https://linkedin.com/in/taniasalsabila" target="_blank" class="hover:text-zinc-900 underline">LinkedIn</a>
+                <a href="https://github.com/taniasalsabila" target="_blank" class="hover:text-zinc-900 underline">GitHub</a>
+            </div>
+        </footer>
+
+    </div>
+
+</body>
+</html>
