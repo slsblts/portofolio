@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tania Salsabila — Software & Systems Engineer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Plus Jakarta Sans', 'sans-serif'],
+                        mono: ['JetBrains Mono', 'monospace'],
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-zinc-50 dark:bg-zinc-950 text-zinc-800 dark:text-zinc-200 font-sans antialiased selection:bg-indigo-500/20 transition-colors duration-200">
+
+    <div class="max-w-4xl mx-auto px-6 py-12 md:py-20">
+        
+        <!-- Navigation & Mode Toggle -->
+        <nav class="flex items-center justify-between mb-16 pb-6 border-b border-zinc-200 dark:border-zinc-800/80">
+            <div class="flex items-center gap-2">
+                <span class="w-3 h-3 rounded-full bg-emerald-500 animate-pulse"></span>
+                <span class="text-xs font-mono font-medium text-zinc-600 dark:text-zinc-400">Available for Internship</span>
+            </div>
+            <button id="theme-toggle" class="p-2 rounded-lg bg-zinc-200/80 dark:bg-zinc-800 text-zinc-700 dark:text-zinc-300 text-xs font-mono hover:bg-zinc-300 dark:hover:bg-zinc-700 transition">
+                🌙 Dark
+            </button>
+        </nav>
+
+        <!-- Hero Section -->
+        <section class="mb-16">
+            <h1 class="text-3xl md:text-4xl font-bold tracking-tight text-zinc-900 dark:text-zinc-100 mb-4">
+                Tania Salsabila
+            </h1>
+            <p class="text-base md:text-lg text-zinc-600 dark:text-zinc-400 leading-relaxed max-w-2xl mb-6">
+                Mahasiswa Informatika Amikom Purwokerto (Konsentrasi Sistem Cerdas). Berfokus pada perancangan arsitektur <span class="font-mono text-xs bg-zinc-200 dark:bg-zinc-800 px-1.5 py-0.5 rounded text-indigo-600 dark:text-indigo-400">backend</span>, integrasi API, dan rekayasa perangkat lunak.
+            </p>
+            <div class="flex flex-wrap gap-3 font-mono text-xs">
+                <a href="https://github.com/slsblts" target="_blank" class="px-3.5 py-2 bg-zinc-900 dark:bg-zinc-100 text-zinc-100 dark:text-zinc-900 font-medium rounded-md hover:opacity-90 transition">
+                    github.com/slsblts ↗
+                </a>
+                <a href="mailto:tania@email.com" class="px-3.5 py-2 bg-zinc-200 dark:bg-zinc-800/80 text-zinc-800 dark:text-zinc-200 font-medium rounded-md hover:bg-zinc-300 dark:hover:bg-zinc-700 transition">
+                    Contact Email
+                </a>
+            </div>
+        </section>
+
+        <!-- Tech Stack Badges -->
+        <section class="mb-16">
+            <h2 class="text-xs font-mono uppercase tracking-wider text-zinc-400 dark:text-zinc-500 mb-4">Technical Competencies</h2>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-3 text-xs font-mono">
+                <div class="p-3 bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800/80 rounded-lg">
+                    <span class="text-indigo-600 dark:text-indigo-400 block font-semibold mb-1">Languages</span>
+                    <span class="text-zinc-600 dark:text-zinc-400">PHP, JS, Python, SQL</span>
+                </div>
+                <div class="p-3 bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800/80 rounded-lg">
+                    <span class="text-indigo-600 dark:text-indigo-400 block font-semibold mb-1">Frameworks</span>
+                    <span class="text-zinc-600 dark:text-zinc-400">Laravel, Express, React</span>
+                </div>
+                <div class="p-3 bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800/80 rounded-lg">
+                    <span class="text-indigo-600 dark:text-indigo-400 block font-semibold mb-1">Environment</span>
+                    <span class="text-zinc-600 dark:text-zinc-400">Linux (Ubuntu), Git</span>
+                </div>
+                <div class="p-3 bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800/80 rounded-lg">
+                    <span class="text-indigo-600 dark:text-indigo-400 block font-semibold mb-1">Specialization</span>
+                    <span class="text-zinc-600 dark:text-zinc-400">Intelligent Systems</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Projects Grid -->
+        <section class="mb-16">
+            <h2 class="text-xs font-mono uppercase tracking-wider text-zinc-400 dark:text-zinc-500 mb-6">Featured Projects</h2>
+            
+            <div class="grid md:grid-cols-2 gap-4">
+                
+                <!-- Project 1 -->
+                <div class="p-5 bg-white dark:bg-zinc-900/60 border border-zinc-200 dark:border-zinc-800/80 rounded-xl hover:border-zinc-300 dark:hover:border-zinc-700 transition flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-3">
+                            <span class="text-[10px] font-mono px-2 py-0.5 bg-indigo-50 dark:bg-indigo-950/50 text-indigo-600 dark:text-indigo-400 border border-indigo-200 dark:border-indigo-800/50 rounded">Laravel / MySQL</span>
+                            <span class="text-xs font-mono text-zinc-400">Web App</span>
+                        </div>
+                        <h3 class="font-bold text-zinc-900 dark:text-zinc-100 mb-2">CaramelPawtner</h3>
+                        <p class="text-xs text-zinc-600 dark:text-zinc-400 leading-relaxed mb-4">
+                            Sistem informasi reservasi layanan pet care. Berfokus pada perancangan arsitektur basis data relasional, logika manajemen booking, dan dasbor admin.
+                        </p>
+                    </div>
+                    <a href="https://github.com/slsblts" target="_blank" class="text-xs font-mono text-indigo-600 dark:text-indigo-400 hover:underline inline-flex items-center gap-1">
+                        View Repository ↗
+                    </a>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="p-5 bg-white dark:bg-zinc-900/60 border border-zinc-200 dark:border-zinc-800/80 rounded-xl hover:border-zinc-300 dark:hover:border-zinc-700 transition flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-3">
+                            <span class="text-[10px] font-mono px-2 py-0.5 bg-indigo-50 dark:bg-indigo-950/50 text-indigo-600 dark:text-indigo-400 border border-indigo-200 dark:border-indigo-800/50 rounded">React / Express</span>
+                            <span class="text-xs font-mono text-zinc-400">Full-Stack</span>
+                        </div>
+                        <h3 class="font-bold text-zinc-900 dark:text-zinc-100 mb-2">SatuTangan</h3>
+                        <p class="text-xs text-zinc-600 dark:text-zinc-400 leading-relaxed mb-4">
+                            Platform penggalangan dana dan donasi sosial. Mengintegrasikan komponen antarmuka React dengan sistem REST API backend secara real-time.
+                        </p>
+                    </div>
+                    <a href="https://github.com/slsblts" target="_blank" class="text-xs font-mono text-indigo-600 dark:text-indigo-400 hover:underline inline-flex items-center gap-1">
+                        View Repository ↗
+                    </a>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="p-5 bg-white dark:bg-zinc-900/60 border border-zinc-200 dark:border-zinc-800/80 rounded-xl hover:border-zinc-300 dark:hover:border-zinc-700 transition flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-3">
+                            <span class="text-[10px] font-mono px-2 py-0.5 bg-indigo-50 dark:bg-indigo-950/50 text-indigo-600 dark:text-indigo-400 border border-indigo-200 dark:border-indigo-800/50 rounded">REST API</span>
+                            <span class="text-xs font-mono text-zinc-400">Mobile</span>
+                        </div>
+                        <h3 class="font-bold text-zinc-900 dark:text-zinc-100 mb-2">Dokemas</h3>
+                        <p class="text-xs text-zinc-600 dark:text-zinc-400 leading-relaxed mb-4">
+                            Aplikasi mobile informasi wisata Banyumas. Mengembangkan alur guest state, itinerary history, serta menghubungkan frontend ke REST API.
+                        </p>
+                    </div>
+                    <span class="text-xs font-mono text-zinc-400">Mobile Integration</span>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="p-5 bg-white dark:bg-zinc-900/60 border border-zinc-200 dark:border-zinc-800/80 rounded-xl hover:border-zinc-300 dark:hover:border-zinc-700 transition flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-3">
+                            <span class="text-[10px] font-mono px-2 py-0.5 bg-indigo-50 dark:bg-indigo-950/50 text-indigo-600 dark:text-indigo-400 border border-indigo-200 dark:border-indigo-800/50 rounded">UI/UX Study</span>
+                            <span class="text-xs font-mono text-zinc-400">System Case</span>
+                        </div>
+                        <h3 class="font-bold text-zinc-900 dark:text-zinc-100 mb-2">Ruang Baca</h3>
+                        <p class="text-xs text-zinc-600 dark:text-zinc-400 leading-relaxed mb-4">
+                            Studi kasus analisis alur sistem informasi ruang baca digital. Menganalisis aksesibilitas pengguna dan efisiensi pencarian katalog buku.
+                        </p>
+                    </div>
+                    <span class="text-xs font-mono text-zinc-400">System Study</span>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Education -->
+        <section class="mb-16">
+            <h2 class="text-xs font-mono uppercase tracking-wider text-zinc-400 dark:text-zinc-500 mb-4">Education & Certifications</h2>
+            <div class="p-4 bg-white dark:bg-zinc-900/60 border border-zinc-200 dark:border-zinc-800/80 rounded-xl space-y-4">
+                <div class="flex justify-between items-start text-xs">
+                    <div>
+                        <div class="font-semibold text-zinc-900 dark:text-zinc-100">S1 Informatika — Universitas Amikom Purwokerto</div>
+                        <div class="text-zinc-500">Konsentrasi Sistem Cerdas</div>
+                    </div>
+                    <span class="font-mono text-zinc-400">2024 – Present</span>
+                </div>
+                <div class="border-t border-zinc-100 dark:border-zinc-800/50 pt-3 flex justify-between items-start text-xs">
+                    <div>
+                        <div class="font-semibold text-zinc-900 dark:text-zinc-100">AI Fundamentals & Generative AI</div>
+                        <div class="text-zinc-500">IBM SkillsBuild Certification</div>
+                    </div>
+                    <span class="font-mono text-zinc-400">Completed</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="pt-8 border-t border-zinc-200 dark:border-zinc-800/80 flex justify-between items-center text-xs font-mono text-zinc-500">
+            <div>© 2026 Tania Salsabila</div>
+            <div class="flex gap-4">
+                <a href="mailto:tania@email.com" class="hover:text-zinc-900 dark:hover:text-zinc-100 underline">Email</a>
+                <a href="https://github.com/slsblts" target="_blank" class="hover:text-zinc-900 dark:hover:text-zinc-100 underline">GitHub</a>
+            </div>
+        </footer>
+
+    </div>
+
+    <!-- Simple Script for Dark Mode Toggle -->
+    <script>
+        const btn = document.getElementById('theme-toggle');
+        btn.addEventListener('click', () => {
+            document.documentElement.classList.toggle('dark');
+            btn.innerHTML = document.documentElement.classList.contains('dark') ? '☀️ Light' : '🌙 Dark';
+        });
+    </script>
+</body>
+</html>
